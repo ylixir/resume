@@ -1,0 +1,105 @@
+% Exemple de CV utilisant la classe moderncv
+% Style classic en bleu
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,letterpaper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Jonathan}
+\familyname{Allen}
+\title{Mathematics student}              
+\address{P.O. Box 52}{Fargo, ND 58107}    
+\email{ylixir@gmail.com}                      
+%\homepage{www.madrzejewski.com}
+\mobile{701-200-4449} 
+%\extrainfo{21 ans -- Permis B}
+\begin{document}
+\maketitle
+\section{Work History}
+\cventry{2014 -- Present}{Teaching Assistant}{North Dakota State University}{Fargo, ND}{}{Precalculus level algebra\newline{}
+\begin{itemize}
+\item
+Prepare an hour of classroom material each week for each class taught.
+\item
+Provide regular office hours for students to receive one on one assistance.
+\item
+Grade homework, quizzes, exams, etc.
+%\item
+%Effective communication with the supervising instructor.
+\end{itemize}}
+\cventry{2007 -- 2014}{Delivery Driver}{Papa John's}{Fargo, ND}{}{Deliver Pizza's}
+\cventry{2006 -- 2007}{Manager}{Papa John's}{Minot, ND}{}{Miscellaneous store management tasks\newline{}
+\begin{itemize}
+\item
+Purchase food, supplies, etc.
+\item
+Track and manage inventory.
+\item
+Scheduling.
+\item
+Help shift managers meet the store owners expectations.
+%\item
+%Usual shift management duties
+\end{itemize}
+}
+\cventry{2003 -- 2006}{Manager}{McDonald's}{Minot, ND}{}{Miscellaneous shift management tasks\newline
+\begin{itemize}
+\item
+Manage money, including tracking tills and bank deposits
+\item
+Track hourly profit and cost and manage labor appropriately
+\item
+Watch service times and quality and help employees maximize these
+\end{itemize}
+}
+\section{Schooling}
+\cventry{2013 -- Present}{Student}{North Dakota State University}{Fargo, ND}{}{Mathematics}
+%\cventry{2007 -- 2011}{Poor Student}{North Dakota State University}{Fargo, ND}{}{Mathematics}
+\cventry{2001 -- 2006}{Student}{Minot State University}{Minot, ND}{}{Mathematics and Computer Science}
+
+\section{Technical Achievements}
+\cventry{2013}{Open Source Developer}{}{}{}{Ported Arch Linux to run on the Nexus 7 tablet.\newline{}}
+\cventry{2008 -- 2011}{Open Source Developer}{}{}{}{Created ncurses bindings for the D programming language.\newline{}}
+
+%\cventry{Avril 2012\\à Octobre 2012}{Administrateur systèmes}{Vesalis}{Clermont-Ferrand}{France}{
+%\begin{itemize}%
+%\item Mise en place d'une solution de répartition de charge sur un serveur IBM Blade Center (~6 serveurs),
+%\item Proposition d'une architecture de haute disponibilité (HA),
+%\item Changement d'hébergeur, réinstallation de toutes les applications et services sur un serveur Windows Server 2008 R2 
+%(configuration d'un SVN, serveur web, base de données, FTP),
+%\item Adaptation du code des applications de la société pour le rendre compatible Linux.\newline{}
+%\end{itemize}}
+
+%\cventry{Juin 2011\\à Aujourd'hui}{Administration d'un serveur dédié}{}{}{}{Installation, configuration et 
+%maintenance d'un serveur dédié tournant sous Debian avec Apache pour héberger mes sites internet.\newline{}}
+
+%\cventry{Juin 2009\\à Aujourd'hui}{Création de Tutoriels-video.fr}{}{}{}{Ce site propose des formations vidéos gratuites en informatique.
+%Il reçoit 900 visiteurs uniques par jour (50 000 pages vues/mois)\newline{}}
+
+\section{Skills}
+\cvitem{Langages}{HTML, PHP, CSS, SQL, C/C++, sh, Python, Lua, D}
+\cvitem{Databases}{Oracle, MSSQL}
+%\cvitem{CMS}{Wordpress, Symfony2 (des notions sur ce Framework)}
+\cvitem{Operating Systems}{Windows, Linux, FreeBSD, Android, Macintosh OSX}
+%\cvitem{Administration}{Apache2, BIND, Postfix, Fail2ban, Proxmox (openVZ), Iptables,Nagios}
+%\cvitem{Réseaux}{Réseaux WAN, Protocole IP, VLAN, Téléphonie IP}
+\cvitem{Software}{Microsoft office, Open Office, \LaTeX, git}
+\cvlanguage{French}{four years of high school, two years of college}{}
+
+%\cvcomputer{Langages}{(X)HTML, PHP, CSS, PL/SQL, C/C++, Java, Bash}{}{}
+%\cvcomputer{Base de données}{MySQL, Oracle}{CMS}{Wordpress, Symfony2 (notions)}
+%\cvcomputer{Analyse}{Merise, UML, Design Patterns}{}{}
+%\cvcomputer{Systèmes}{Windows XP/Seven/Server 2003/Server 2008, Linux (Debian)}{}{}
+%\cvcomputer{Administration}{Apache2, BIND, Postfix, Fail2ban, Proxmox (openVZ), Iptables,Nagios}{}{}
+
+%\section{Hobbies}
+%\cvitem{Film}{Movies and television, there aren't enough hours in a lifetime to see all the quality film out there.}
+%\cvitem{Chess}{I have never found another game that gives me as much entertainment as chess does. Hit me up for a game.}
+%\cvitem{Plongée}{Diplôme de niveau 1}
+
+\end{document}
+
