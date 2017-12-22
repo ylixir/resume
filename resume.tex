@@ -23,50 +23,26 @@
 \maketitle
 
 \section{Objective}
-Obtain a position which leverages my skills in software development, software architecture and mathematics, where I can learn and grow both professionally and intellectually.
-\section{Education}
-\cventry{2015}{North Dakota State University}{Fargo, ND}{}{}{
-Bachelor of Arts in Mathematics
-\begin{itemize}
-\item
-Elective credits in partial differential equations, combinatorics, graph theory and real analysis.
-\item
-Capstone project explored numerical semigroups, Markov bases, and extensions of the natural numbers.
-\end{itemize}
-}
-\cventry{2001-2005}{Minot State University}{Minot, ND}{}{}{
-Computer Science, Mathematics, Physics coursework
-\begin{itemize}
-\item
-Met programming proficiency requirements.
-\item
-Completed all data structures and algorithms coursework.
-\item
-Completed a concentration in physics.
-\end{itemize}
-}
-
-\section{Skills}
-\cvitem{Expertise}{C/C++ (and family), sh, Lua, git, *nix}
-\cvitem{Current Focus}{Elm, Haskell, Rust, Atmel AVR}
-
+Obtain a position in which I am able to mentor and be mentored in order to expand skills in software development, software architecture and mathematics.
 \section{Related Experience}
-\cventry{2016 -- 2017}{Senior Software Developer}{RealTruck Inc.}{Fargo, ND}{}{Professional Software Development
+\cventry{2016 -- present}{Senior Software Developer}{RealTruck Inc.}{Fargo, ND}{}{Professional Software Development
 \begin{itemize}
 \item
-Systems design and architecture.
+Enterprise systems design and architecture.
 \item
 Code review of both peer and junior developers.
 \item
 Author technical guidelines.
 \item
-The ability to balance technical considerations with quarterly and political constraints.
+Balancing technical considerations with quarterly and political constraints.
 \item
-It so quickly became apparent how much of an asset experience in mathematics and open source software is that I was elevated to a senior level, despite being hired at a junior level.
+Applying experience gained from open source development to proprietary systems.
 \item
-Ability to come up to speed with a nearly million line codebase in record time.
+Quickly coming to grips with very large codebases.
 \item
-The rigor and logic obtained from my mathematics experience allows me to find and fix bugs in days that other developers can not find in months.
+Apply mathematical experience to finding and fixing seemingly intractable software bugs.
+\item
+Engineer for failure and recovery, providing robust and highly resilient systems.
 \end{itemize}}
 \cventry{1985 -- present}{Software Developer}{}{}{}{A lifetime of non-professional software development.
 \begin{itemize}
@@ -88,46 +64,66 @@ Provide one-on-one assistance for my students.
 \item
 Grade homework, quizzes, exams, etc.
 \end{itemize}}
-\cventry{2003 -- 2016}{Manager}{}{Minot/Fargo, ND}{}{Food Service
-\begin{itemize}
-\item Papa John's and McDonald's
-\item Food and inventory preparation and management.
-\item Employee and labor management.
-\item Cash management.
-\item Employee training.
-\item Customer service.
-\end{itemize}}
 \cventry{2002 -- 2003}{Programmer}{North Dakota Center for Persons with Disabilities}{Minot, ND}{}{Miscellaneous programming tasks
 \begin{itemize}
 \item
-Use C++ and Win32 to maintain and create accessibility software.
+Diverse technology stacks consisting of C++, Win32 API, MFC, ASP, MSSQL, Oracle.
 \item
-Use ASP to create and maintain web applications.
-\item
-Use SQL to interface with database back ends.
-\item
-Design and maintain databases using MSSQL and Oracle.
+Create and maintain desktop and web applications with a focus on accessibility software.
 \end{itemize}
 }
-\section{Technical Achievements}
+
+\section{Skills}
+\cvitem{Expertise}{C/C++ (and family), JavaScript, git, *nix}
+\cvitem{Current Focus}{Elm, Haskell, Rust, Atmel AVR}
+
+\section{Education}
+\cventry{2015}{North Dakota State University}{Fargo, ND}{}{}{
+Bachelor of Arts in Mathematics
+\begin{itemize}
+\item
+Elective credits in partial differential equations, combinatorics, graph theory and real analysis.
+\item
+Capstone explored numerical semigroups, Markov bases, and extensions of the natural numbers.
+\end{itemize}
+}
+\cventry{2001-2005}{Minot State University}{Minot, ND}{}{}{
+Computer Science, Mathematics, Physics coursework
+\begin{itemize}
+\item
+Exempted from basic programming (C++) coursework.
+\item
+Completed all data structures and algorithms coursework.
+\item
+Completed a concentration in physics.
+\end{itemize}
+}
+\section{Selected Technical Achievements}
 \cventry{2017}{Sales tax system}{}{https://www.realtruck.com}{}{
-	Completely reimplemented the sales tax handling for major e-commerce platform. When I came on board taxes were hardcoded in stored procedures in our database. Taxes are now handled dynamically and intelligently. I had to write a custom SDK for integration with Avalara from scratch because of the technical limitations of our platform.
+	Hardcoded taxe rates weren't scaling. Technical limitations of our platform forced me to write from scratch a custom SDK that integrated our platform with Avalara. Taxes are now calculated intelligently and dynamically.
 	\begin{itemize}
 	\item Languages: PHP
-	\item Technologies: JSON, HTTPS
+	\item Technologies: JSON, HTTPS, REST
 	\end{itemize}
 }
 \cventry{2017}{Implement gift card system}{}{https://www.realtruck.com}{}{
-	Political and technical decisions left our platform with no ability to handle gift cards. I implemented gift card integration with lightrail.com which allows use of previously purchased cards, and the ability to create and use new cards.
+	Political and technical decisions left our platform with no ability to handle gift cards. I implemented gift card integration with Lightrail.com, restoring gift card capabilities to our platform.
 	\begin{itemize}
 	\item Languages: PHP
 	\item Technologies: JSON, HTTPS, ADTs
 	\end{itemize}
 }
 \cventry{2016}{Complete redesign of ad feed system}{}{https://www.realtruck.com}{}{
-	Refactored a system that was literally unmaintainable. This system was so "legacy" that noone else was able to work with it. It was described to me as "the worst part of our codebase" and was so brittle that any modification would likely cause the loss of tens of thousands of dollars in revenue. My ability to maintain, improve and test this system while balancing time and priorities of other tasks, was described as a "master class in incremental improvement". Currently the system can be easily modified without risks of side effects, and can be plugged into arbitrary web api technologies.
+	Refactored a system described as "the worst part of our codebase". Mistakes made modifying this system routinely caused the loss of tens of thousands of dollars. Maintaining, improving and testing this system while balancing time and priorities of other tasks, was described by management as a "master class in incremental improvement". The system can now be easily modified without risks of side effects or failure, and can be plugged into arbitrary web technologies for consumption by advertising partners.
 	\begin{itemize}
 	\item Languages: PHP
+	\end{itemize}
+}
+\cventry{2016}{yotp}{}{https://www.github.com/ylixir/yotp}{}{
+	Command line utility for generating one time passwords. Commonly called two factor authentication, this code could be used by a client or server to implement this technology.
+	\begin{itemize}
+	\item Languages: C\#
+	\item Technologies: .net core, Mono, .NET, HOTP, TOTP, SHA1
 	\end{itemize}
 }
 \cventry{2015}{diceware}{}{https://www.github.com/ylixir/diceware}{}{
@@ -135,13 +131,6 @@ Design and maintain databases using MSSQL and Oracle.
 	\begin{itemize}
 	\item Languages: Lua
 	\item Technologies: diceware, /dev/urandom
-	\end{itemize}
-}
-\cventry{2016}{yotp}{}{https://www.github.com/ylixir/yotp}{}{
-	Command line utility for generating one time passwords. These can be used, for example, to log into ones Facebook account after enabling two factor authentication. This code could also be used on the other end, by a web service to validate users using one time passwords.
-	\begin{itemize}
-	\item Languages: C\#
-	\item Technologies: .net core, Mono, .NET, HOTP, TOTP, SHA1
 	\end{itemize}
 }
 \cventry{2015}{frobmask}{}{https://www.github.com/ylixir/frobmask}{}{
