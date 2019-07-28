@@ -2,8 +2,9 @@
 % Style classic en bleu
 % Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
 
-\documentclass[a4paper]{moderncv}
+\documentclass[letter]{moderncv}
 \moderncvtheme[blue]{classic}                
+\moderncvicons{awesome}
 \usepackage[utf8]{inputenc}
 \usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
 % Largeur de la colonne pour les dates
@@ -12,19 +13,20 @@
 \firstname{Jonathan}
 \familyname{Allen}
 \title{Software Engineering}              
-\address{P.O. Box 52}{Fargo, ND 58107}    
+%\address{P.O. Box 52}{Fargo, ND 58107}    
 \email{jon@ylixir.io}                      
-\mobile{+1 802-552-0922} 
-\mobile{+33 7 88 09 10 28} 
-%\extrainfo{\emailsymbol\emaillink{ylixir@gmail.com}}
-%\phone{802-552-0922} 
+\mobile{+1 802 552 0922} 
 \social[github]{ylixir}
 \social[linkedin]{ylixir}
 \begin{document}
 \maketitle
 
 \section{Objective}
-Obtain a position which allows enables maximum personal, peer and company growth.
+Find an environment which challenges me to become a better engineer, mentor,
+and project architect.
+\section{Skills}
+\cvitem{Expertise}{C/C++, JavaScript, TypeScript, Python, git, Linux, Node.js, SQL, NoSQL}
+\cvitem{Current Focus}{Elm, Lisp, Cloud DevOps, Arduino}
 \section{Related Experience}
 \cventry{2016 -- present}{Senior Software Developer}{RealTruck Inc.}{Fargo, ND}{}{Professional Software Development
 \begin{itemize}
@@ -39,16 +41,14 @@ Experience with codebases that are several hundreds of thousands of lines of cod
 \item
 Broad background allows me to manage seemingly intractable issues.
 \end{itemize}}
-\cventry{1985 -- present}{Software Developer}{}{}{}{A lifetime of non-professional software development.
+\cventry{2004 -- 2013}{Food Service management}{}{}{}{Manager at McDonalds and Papa John's.
 \begin{itemize}
-\item
-Breadth of experience crossing many paradigms and technologies.
-\item
-Ability to quickly learn and become adept at any "new" technology.
-\item
-Ability to evaluate best fit technologies, regardless of political or quarterly constraints.
-\item
-Evaluating long term value of technical decisions.
+  \item
+    Inventory: usage, loss, ordering, etc.
+  \item
+    Employees: hiring, scheduling, training, discipline, etc.
+  \item
+    Money: basic accounting, cash management, etc.
 \end{itemize}}
 \cventry{2014 -- 2015}{Teaching Assistant}{North Dakota State University}{Fargo, ND}{}{Precalculus level algebra
 \begin{itemize}
@@ -67,14 +67,22 @@ Diverse technology stacks consisting of C++, Win32 API, MFC, ASP, MSSQL, Oracle.
 Create and maintain desktop and web applications with a focus on accessibility software.
 \end{itemize}
 }
+\cventry{1985 -- present}{Open Source and Hobby Software Developer}{}{}{}{Decades of software development experience.
+\begin{itemize}
+\item
+Breadth of experience crossing many paradigms and technologies.
+\item
+Ability to quickly learn and become adept at any "new" technology.
+\item
+Ability to evaluate best fit technologies, regardless of political or quarterly constraints.
+\item
+Evaluating long term value of technical decisions.
+\end{itemize}}
 
 \section{References}
 \cventry{Jeffrey Barron}{Software Engineering Manager}{\emailsymbol\emaillink{jeffrey.a.barron@icloud.com}}{}{}{}
 \cventry{Jake Oster}{Senior Software Engineer}{\emailsymbol\emaillink{jacoboster30@hotmail.com}}{}{}{}
 
-\section{Skills}
-\cvitem{Expertise}{C/C++ (and family), JavaScript, TypeScript, git, *nix}
-\cvitem{Current Focus}{Elm, Haskell, Rust, Atmel AVR}
 \section{Education}
 \cventry{2015}{North Dakota State University}{Fargo, ND}{}{}{
 Bachelor of Arts in Mathematics
@@ -89,6 +97,20 @@ Capstone work involving numerical semigroups, Markov bases, and extensions of th
 Computer Science, Mathematics, Physics coursework
 }
 \section{Technical Highlights}
+\cventry{2019}{Media Metadata Cache}{}{\url{https://realtruck.com}}{}{
+  Microservice to provide cached metadata to website frontend.
+  \begin{itemize}
+    \item Languages: Typescript, Node.js
+    \item Technologies: AWS, DynamoDB, Lambda Serverless, Microservices
+  \end{itemize}
+}
+\cventry{2019}{Children's math practice}{}{\url{https://ylixir.io/math-quiz}}{}{
+  A simple flashcard like system to help a child memorize multiplication tables.
+  \begin{itemize}
+    \item Languages: Elm, ElmUI
+  \item Technologies: Functional programming
+  \end{itemize}
+}
 \cventry{2019}{Parser Combinator Library}{}{\url{https://ylixir.io/phap}}{}{
   Implement parsing combinator technology, making it available to the PHP ecosystem.
   \begin{itemize}
@@ -96,11 +118,13 @@ Computer Science, Mathematics, Physics coursework
   \item Technologies: Functional programming
   \end{itemize}
 }
-\cventry{2018}{ETL Pipeline}{}{\url{https://realtruck.com}}{}{
+\cventry{2018}{Microservices product management backend}{}{\url{https://realtruck.com}}{}{
   Redesign and implement large portions of a product information pipeline responsible for transforming and routing routing many millions of rows of data to tens of systems.
+  Continue to maintain system over time.
+  Uses multiple languages, and infrastructure systems in a microservices architecture.
   \begin{itemize}
-  \item Languages: Python, PHP
-  \item Technologies: Circle-CI, Nix, Psalm
+    \item Languages: Python, PHP, Go
+    \item Technologies: AWS, Circle-CI, Nix, Psalm, Bash, Make, Ansible
   \end{itemize}
 }
 \cventry{2018}{Shopping Cart}{}{\url{https://realtruck.com}}{}{

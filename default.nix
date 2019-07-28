@@ -10,6 +10,6 @@ with import <nixpkgs> {};
     microtype
     pgf
     cm-super
-    marvosym
+    fontawesome
   ; })
 ]
