@@ -10,6 +10,10 @@ with import <nixpkgs> {};
     microtype
     pgf
     cm-super
-    fontawesome
+    fontawesome5
+    luatexbase
+    academicons
+    multirow
+    arydshln
   ; })
 ]

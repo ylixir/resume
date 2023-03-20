@@ -1,2 +1,2 @@
 resume.pdf: resume.tex
-	pdflatex resume.tex
+	lualatex resume.tex
