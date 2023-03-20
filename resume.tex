@@ -3,7 +3,7 @@
 % Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
 
 \documentclass[letter]{moderncv}
-\moderncvtheme[blue]{classic}                
+\moderncvtheme[blue]{classic}
 \moderncvicons{awesome}
 \usepackage[utf8]{inputenc}
 \usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
@@ -30,7 +30,24 @@ I do not glory working in the dark...literally or figuratively.
 \cvitem{Expertise}{C/C++, JavaScript, TypeScript, Python, git, Linux, Node.js, SQL, NoSQL, REST}
 \cvitem{Current Focus}{Elm, Lisp, Cloud DevOps, Arduino}
 \section{Related Experience}
-\cventry{2016 -- present}{Senior Software Developer}{RealTruck Inc.}{Fargo, ND}{}{Professional Software Development
+\cventry{2022 -- Present}{Engineering Manager}{iCIMS}{Remote}{}{Manage Professional Development Team
+  \begin{itemize}
+    \item
+      Create and maintain a global video hosting platform.
+    \item
+      Coordinate with design and product managers.
+    \item
+      Mentor and lead other team members.
+    \item
+      Constrain project scopes to ensure sustainability.
+    \item
+      Manage hyper scalable multi-region infrastructure.
+    \item
+      Hybrid management/individual contributor role
+  \end{itemize}}
+\cventry{2020 -- 2022}{Principal Software Engineer}{iCIMS (through Altrulabs acquisition)}{New York, NY}{}{Professional Software Development}
+\cventry{2019 -- 2020}{Principal Software Engineer}{Altrulabs}{New York, NY}{}{Professional Software Development}
+\cventry{2016 -- 2019}{Senior Software Developer}{RealTruck Inc.}{Fargo, ND}{}{Professional Software Development
   \begin{itemize}
     \item
       Engineer enterprise systems for failure and recovery.
@@ -99,6 +116,27 @@ Capstone work involving numerical semigroups, Markov bases, and extensions of th
 Computer Science, Mathematics, Physics coursework
 }
 \section{Technical Highlights}
+\cventry{2022}{Multiregion infrastructure scaling}{}{\url{https://www.icims.com/products/talent-cloud-platform/video-studio/}}{}{
+  Provide internationally scaleable backup infrastructure that is transparent to the end user, but which respects political boundaries.
+  \begin{itemize}
+    \item Languages: Ruby, Cloudformation, Terraform
+    \item Technologies: Fargate, Docker, Lambda, Circle-CI, Cloudfront
+  \end{itemize}
+}
+\cventry{2021}{Video editor}{}{\url{https://www.icims.com/products/talent-cloud-platform/video-studio/}}{}{
+  Simple easy to use in browser video editing.
+  \begin{itemize}
+    \item Languages: Typescript, Ruby
+    \item Technologies: Angular, Rails, FFmpeg, ImageMagick
+  \end{itemize}
+}
+\cventry{2020}{Video transcoding pipeline}{}{\url{https://www.icims.com/products/talent-cloud-platform/video-studio/}}{}{
+  Scaleable, fault tolerant, asynchronous video transcoding pipeline.
+  \begin{itemize}
+    \item Languages: Ruby
+    \item Technologies: Rails, FFmpeg, ImageMagick
+  \end{itemize}
+}
 \cventry{2019}{Media Metadata Cache}{}{\url{https://realtruck.com}}{}{
   Microservice to provide cached metadata to website frontend.
   \begin{itemize}
